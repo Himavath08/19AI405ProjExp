@@ -2,9 +2,9 @@
 # NAME:Himavath M
 # REG.NO:212223240053
 # AIM:
-```
-To implement a Sudoku solver using the backtracking algorithm to find the solution for the given Sudoku puzzle.
 
+To implement a Sudoku solver using the backtracking algorithm to find the solution for the given Sudoku puzzle.
+```
 # Steps to solve the Sudoku Puzzle in Python
 <br>
 1.In this method for solving the sudoku puzzle, first, we assign the size of the 2D matrix to a variable M (M*M).
