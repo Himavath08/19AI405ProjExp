@@ -2,9 +2,11 @@
 # NAME:Himavath M
 # REG.NO:212223240053
 # AIM:
+```
 To implement a Sudoku solver using the backtracking algorithm to find the solution for the given Sudoku puzzle.
 
 # Steps to solve the Sudoku Puzzle in Python
+<br>
 1.In this method for solving the sudoku puzzle, first, we assign the size of the 2D matrix to a variable M (M*M).
 2.Then we assign the utility function (puzzle) to print the grid.
 3.Later it will assign num to the row and col.
@@ -14,6 +16,7 @@ To implement a Sudoku solver using the backtracking algorithm to find the soluti
 7.Further now we see if the current position of the grid has a value greater than 0, then we iterate for the next column.
 8.After checking if it is a safe place, we move to the next column and then assign the num in the current (row, col) position of the grid. Later we check for the next possibility with the next column.
 9.As our assumption was wrong, we discard the assigned num and then we go for the next assumption with a different num value
+```
 # PROGRAM:
 ```
 M = 9
@@ -59,7 +62,7 @@ def Suduko(grid, row, col):
         grid[row][col] = 0
     return False
  
-'''0 means the cells where no value is assigned'''
+0 means the cells where no value is assigned'''
 grid = [[2, 5, 0, 0, 3, 0, 9, 0, 1],
         [0, 1, 0, 0, 0, 4, 0, 0, 0],
     [4, 0, 7, 0, 0, 0, 2, 0, 8],
